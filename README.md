@@ -5,7 +5,7 @@ Piero Tandaypan
 
 Matias Urrutia 
 
-Jorge Gàlvez
+Jorge Gálvez
 
 Manuel Olivares Bello
 
