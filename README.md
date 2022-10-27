@@ -1,4 +1,6 @@
 # Catedra1
+lenguaje java (instalar JDK 19)
+
 integrantes del equipo:
 
 Piero Tandaypan
