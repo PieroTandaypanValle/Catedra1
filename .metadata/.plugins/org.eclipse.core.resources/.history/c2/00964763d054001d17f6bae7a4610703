@@ -1,0 +1,13 @@
+package ventana;
+
+import javax.swing.JFrame;
+
+public class ventana extends JFrame {
+
+	public ventana() {
+		setSize(500,500);
+		setTitle("Formulario para 'Red Flag' Depresion");
+		
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
+	}
+}
