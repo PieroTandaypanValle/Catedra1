@@ -1,0 +1,74 @@
+Análisis de factores de riesgos
+    Datos de la persona
+        Nombre: 
+        Edad:
+        Genero: [M][F][Otro]
+        [Otro]: Especificar
+        Estudia: [Si][No]
+        [Si]: estudia, Donde?
+    Preguntas
+        01) Estado civil:
+            a) Soltero
+            b) Casado o En una relación
+            c) Viudo
+        02) ¿Usted es introvertido?
+            a) Si
+            b) No
+        03) ¿Has perdido el interés en cosas importantes para ti?
+            a) Si
+            b) No
+        04) ¿Usted vive solo?
+            a) Si
+            b) No
+        05) ¿Pertenece a alguna etnia?
+            a) Si
+            b) No
+            c) Prefiero no responder
+        06) ¿Pertenece a la comunidad LGBTIQ+?
+            a) Si
+            b) No
+            c) Prefiero no responder
+        07) ¿Usted se ha pensado en autolesionarse?
+            a) Si
+            b) No
+            c) Prefiero no responder
+        08) ¿Usted se ha autolesionado?
+            a) Si
+            b) No
+            c) Prefiero no responder
+        09) ¿Ha sufrido de bullying o discriminación?
+            a) Si
+            b) No
+            b) Prefiere no responder
+        10) ¿Ha sufrido de abuso o maltrato?
+            a) Si
+            b) No
+            b) Prefiere no responder
+        11) ¿Algún familiar o amigo cercano se ha muerto en el último tiempo?
+            a) Si
+            b) No
+            b) No lo se
+        12) ¿Algún familiar o amigo cercano se a suicidado?
+            a) Si
+            b) No
+        13) ¿Ha terminado alguna relación importante para usted? (Familiar, Amigos, Romántica)
+            a) Si
+            b) No
+        14) ¿Sus hábitos alimenticios han cambiado en el último tiempo?
+            a) Si
+            b) No
+        15) ¿Ha cambiado su siclo de sueño en el ultimo tiempo? 
+            a) Si
+            b) No
+        16) ¿Pasas mucho tiempo triste o llorando últimamente?
+            a) Si
+            b) No
+        17) ¿Siente que su humor ha cambiado?
+            a) Si
+            b) No
+        18) ¿Tiene acceso a medicamentos con uso controlado?
+            a) Si
+            b) No
+        19) ¿Suele actuar de forma impulsiva?
+            a) Si
+            b) No
