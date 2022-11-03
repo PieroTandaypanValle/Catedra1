@@ -8,67 +8,67 @@ Análisis de factores de riesgos
         [Si]: estudia, Donde?
     Preguntas
         01) Estado civil:
-            a) Soltero
-            b) Casado o En una relación
-            c) Viudo
+            a) Soltero                      2
+            b) Casado o En una relación     1  
+            c) Viudo                        3  
         02) ¿Usted es introvertido?
-            a) Si
-            b) No
+            a) Si                           1  
+            b) No                           0
         03) ¿Has perdido el interés en cosas importantes para ti?
-            a) Si
-            b) No
+            a) Si                           1
+            b) No                           0
         04) ¿Usted vive solo?
-            a) Si
-            b) No
+            a) Si                           1
+            b) No                           0
         05) ¿Pertenece a alguna etnia?
-            a) Si
-            b) No
-            c) Prefiero no responder
+            a) Si                           3
+            b) No                           1
+            c) Prefiero no responder        2
         06) ¿Pertenece a la comunidad LGBTIQ+?
-            a) Si
-            b) No
-            c) Prefiero no responder
+            a) Si                           3  
+            b) No                           1
+            c) Prefiero no responder        2
         07) ¿Usted se ha pensado en autolesionarse?
-            a) Si
-            b) No
-            c) Prefiero no responder
+            a) Si                           3
+            b) No                           1
+            c) Prefiero no responder        2
         08) ¿Usted se ha autolesionado?
-            a) Si
-            b) No
-            c) Prefiero no responder
+            a) Si                           3
+            b) No                           1
+            c) Prefiero no responder        2
         09) ¿Ha sufrido de bullying o discriminación?
-            a) Si
-            b) No
-            b) Prefiere no responder
+            a) Si                           3
+            b) No                           1
+            b) Prefiere no responder        2
         10) ¿Ha sufrido de abuso o maltrato?
-            a) Si
-            b) No
-            b) Prefiere no responder
+            a) Si                           3
+            b) No                           1
+            b) Prefiere no responder        2
         11) ¿Algún familiar o amigo cercano se ha muerto en el último tiempo?
-            a) Si
-            b) No
-            b) No lo se
+            a) Si                           3
+            b) No                           1
+            b) No lo se                     2
         12) ¿Algún familiar o amigo cercano se a suicidado?
-            a) Si
-            b) No
+            a) Si                           1
+            b) No                           0
         13) ¿Ha terminado alguna relación importante para usted? (Familiar, Amigos, Romántica)
-            a) Si
-            b) No
+            a) Si                           1
+            b) No                           0
         14) ¿Sus hábitos alimenticios han cambiado en el último tiempo?
-            a) Si
-            b) No
+            a) Si                           1
+            b) No                           0
         15) ¿Ha cambiado su siclo de sueño en el ultimo tiempo? 
-            a) Si
-            b) No
+            a) Si                           1
+            b) No                           0
         16) ¿Pasas mucho tiempo triste o llorando últimamente?
-            a) Si
-            b) No
+            a) Si                           1
+            b) No                           0
         17) ¿Siente que su humor ha cambiado?
-            a) Si
-            b) No
+            a) Si                           1
+            b) No                           0
         18) ¿Tiene acceso a medicamentos con uso controlado?
-            a) Si
-            b) No
+            a) Si                           1
+            b) No                           0
         19) ¿Suele actuar de forma impulsiva?
-            a) Si
-            b) No
+            a) Si                           1
+            b) No                           0
