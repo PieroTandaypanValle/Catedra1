@@ -48,7 +48,7 @@ Análisis de factores de riesgos
             a) Si                           3
             b) No                           1
             b) No lo se                     2
-        12) ¿Algún familiar o amigo cercano se a suicidado?
+        12) ¿Algún familiar o amigo cercano se ha suicidado?
             a) Si                           1
             b) No                           0
         13) ¿Ha terminado alguna relación importante para usted? (Familiar, Amigos, Romántica)
