@@ -29,3 +29,7 @@ un entorno de desarrollo (eclipse, netbeans, VS code, otros).
 
 Tambien se debe descargar e instalar JDK: https://download.oracle.com/java/19/latest/jdk-19_windows-x64_bin.exe ( sha256)
 
+base de datos que debe importar:
+https://drive.google.com/file/d/1fEfvOA72PjldV-SeIMG3DIGrKLut26e2/view?usp=share_link en http://localhost/phpmyadmin/index.php
+
+
