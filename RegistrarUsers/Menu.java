@@ -3,6 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package RegistrarUsers;
+
 import java.util.Scanner;
 
 public class Menu {
@@ -30,5 +31,4 @@ public class Menu {
                 break;    
         }
     }
-    
 }
