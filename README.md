@@ -7,6 +7,10 @@ Xampp(instalar Xampp segun tu sistema 8.1.10)
 
 https://www.apachefriends.org/es/index.html
 
+Driver Conector(Instalar convenientemente "mysql-connector-j-8.0.31.zip" )
+
+https://dev.mysql.com/downloads/connector/j/
+
 integrantes del equipo:
 
 Piero Tandaypan
