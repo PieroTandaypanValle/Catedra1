@@ -25,6 +25,10 @@ Link del Informe (actualizado 03-11-22):
 
 https://docs.google.com/document/d/1kBEOHjWS_9F-i_p8txe8gVXXMHDi0kmdMhnZZlb6VWQ/edit#heading=h.o3qvrxrqaq6v
 
+LInk de la PResentacion:
+
+https://docs.google.com/presentation/d/1xRcY4ykDgpVFe3LumzlssLYuld3i7zNtZhLEYquSZtE/edit?usp=sharing
+
 Para usar java necesita:
 
 un entorno de desarrollo (eclipse, netbeans, VS code, otros).
