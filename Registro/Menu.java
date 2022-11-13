@@ -10,6 +10,8 @@ public class Menu {
         System.out.println("2.-Registrar Pacients: ");
         System.out.println("3.-Registrar Questions: ");
         System.out.println("4.-Registrar Answers: ");
+        System.out.println("5.-Registrar Tests: ");
+        System.out.println("6.-Registrar Results: ");
     }
 
     public static void main(String[] args) {
@@ -42,6 +44,16 @@ public class Menu {
                     RegistroAnswers ven4 = new RegistroAnswers();
                     ven4.setVisible(true);
                     ven4.setLocationRelativeTo(null);
+                    break;
+                case 5:
+                    RegistroTests ven5 = new RegistroTests();
+                    ven5.setVisible(true);
+                    ven5.setLocationRelativeTo(null);
+                    break;
+                case 6:
+                    RegistroResults ven6 = new RegistroResults();
+                    ven6.setVisible(true);
+                    ven6.setLocationRelativeTo(null);
                     break;    
                     
                 default:
