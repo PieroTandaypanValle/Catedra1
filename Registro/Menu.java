@@ -6,9 +6,10 @@ public class Menu {
     public static void imprimir_menu() {
         System.out.println("\n\tMenu: ");
         System.out.println("0.-Salir: ");
-        System.out.println("1.-Registrar Users: ");
+        System.out.println("1.-Registrar Medicals: ");
         System.out.println("2.-Registrar Pacients: ");
-        System.out.println("3.-Registrar Pregunta: ");
+        System.out.println("3.-Registrar Questions: ");
+        System.out.println("4.-Registrar Answers: ");
     }
 
     public static void main(String[] args) {
@@ -23,7 +24,7 @@ public class Menu {
                     salir_menu = false;
                     break;
                 case 1:
-                    RegistroUsers ven = new RegistroUsers();
+                    RegistroMedical ven = new RegistroMedical();
                     ven.setVisible(true);
                     ven.setLocationRelativeTo(null);
                     break;
@@ -36,7 +37,13 @@ public class Menu {
                     RegistroQuestions ven3 = new RegistroQuestions();
                     ven3.setVisible(true);
                     ven3.setLocationRelativeTo(null);
+                    break;
+                case 4:
+                    RegistroAnswers ven4 = new RegistroAnswers();
+                    ven4.setVisible(true);
+                    ven4.setLocationRelativeTo(null);
                     break;    
+                    
                 default:
                     System.out.println("Error, opción fuera de rango");
             }

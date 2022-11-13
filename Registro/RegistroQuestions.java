@@ -33,7 +33,6 @@ public class RegistroQuestions extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         txt_question1 = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
-        txt_description = new javax.swing.JTextField();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
@@ -41,14 +40,19 @@ public class RegistroQuestions extends javax.swing.JFrame {
         txt_buscar2 = new javax.swing.JTextField();
         jButton4 = new javax.swing.JButton();
         label_status3 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        txt_objetive = new javax.swing.JTextArea();
+        jLabel5 = new javax.swing.JLabel();
+        txt_deleted3 = new javax.swing.JTextField();
+        jLabel6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setText("ID:");
 
-        jLabel2.setText("Question:");
+        jLabel2.setText("Text question:");
 
-        jLabel3.setText("Description:");
+        jLabel3.setText("objetive question:");
 
         jButton1.setText("Registrar");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -88,6 +92,16 @@ public class RegistroQuestions extends javax.swing.JFrame {
 
         label_status3.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
 
+        txt_objetive.setColumns(20);
+        txt_objetive.setRows(5);
+        jScrollPane1.setViewportView(txt_objetive);
+
+        jLabel5.setText("Delete_all(1=Active):");
+
+        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(0, 102, 255));
+        jLabel6.setText("Registro Questions");
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -95,36 +109,48 @@ public class RegistroQuestions extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(txt_question1)
-                    .addComponent(txt_description)
                     .addGroup(layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(txt_id3, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addComponent(jLabel3)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jButton1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jButton2)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jButton3))
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(txt_id3, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addGap(89, 89, 89)
+                                .addComponent(jLabel6))
                             .addComponent(jButton4)
                             .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                                 .addComponent(label_status3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
                                     .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(txt_buscar2, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                        .addGap(0, 133, Short.MAX_VALUE)))
+                                    .addComponent(txt_buscar2, javax.swing.GroupLayout.PREFERRED_SIZE, 62, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(6, 6, 6)
+                                .addComponent(jButton1)
+                                .addGap(18, 18, 18)
+                                .addComponent(jButton2)
+                                .addGap(18, 18, 18)
+                                .addComponent(jButton3))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel3)
+                                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 250, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(29, 29, 29)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txt_deleted3, javax.swing.GroupLayout.PREFERRED_SIZE, 71, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel5))))
+                        .addGap(0, 134, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel1)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel1)
+                    .addComponent(jLabel6))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(txt_id3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -132,14 +158,21 @@ public class RegistroQuestions extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(txt_question1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(txt_description, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton1)
-                    .addComponent(jButton2)
-                    .addComponent(jButton3))
+                    .addComponent(jLabel3)
+                    .addComponent(jLabel5))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(69, 69, 69)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jButton1)
+                            .addComponent(jButton2)
+                            .addComponent(jButton3)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(txt_deleted3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel4)
@@ -148,7 +181,7 @@ public class RegistroQuestions extends javax.swing.JFrame {
                 .addComponent(jButton4)
                 .addGap(28, 28, 28)
                 .addComponent(label_status3)
-                .addContainerGap(50, Short.MAX_VALUE))
+                .addContainerGap(39, Short.MAX_VALUE))
         );
 
         pack();
@@ -161,13 +194,15 @@ public class RegistroQuestions extends javax.swing.JFrame {
             
             pst.setString(1, txt_id3.getText().trim());
             pst.setString(2, txt_question1.getText().trim());
-            pst.setString(3, txt_description.getText().trim());
-            pst.setString(4, "1");
+            pst.setString(3, txt_objetive.getText().trim());
+            pst.setString(4, txt_deleted3.getText().trim());
+            
             pst.executeUpdate();
             
             txt_id3.setText("");
             txt_question1.setText("");
-            txt_description.setText("");
+            txt_objetive.setText("");
+            txt_deleted3.setText("");
           
             
             label_status3.setText("Registro exitoso");
@@ -181,11 +216,12 @@ public class RegistroQuestions extends javax.swing.JFrame {
         try{
             String ID =txt_buscar2.getText().trim();
             Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/surveys", "root", "");
-            PreparedStatement pst = cn.prepareStatement("update questions set ID=?, Questions=?, Description=? where ID = " + ID);
+            PreparedStatement pst = cn.prepareStatement("update questions set ID_QUESTION=?, TEXT_QUESTIONS=?, OBJETIVE_QUESTIONS=?, DELETE_ALL_Q=? where ID_QUESTION = " + ID);
             
             pst.setString(1, txt_id3.getText().trim());
             pst.setString(2, txt_question1.getText().trim());
-            pst.setString(3, txt_description.getText().trim());
+            pst.setString(3, txt_objetive.getText().trim());
+            pst.setString(4, txt_deleted3.getText().trim());
            
             pst.executeUpdate();
             
@@ -199,16 +235,17 @@ public class RegistroQuestions extends javax.swing.JFrame {
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         try{
             Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/surveys", "root", "");
-            PreparedStatement pst = cn.prepareStatement("select * from questions where ID = ?");
+            PreparedStatement pst = cn.prepareStatement("select * from questions where ID_QUESTION = ?");
             pst.setString(1, txt_buscar2.getText().trim());
             
             ResultSet rs = pst.executeQuery();
             
             if(rs.next()){
                 
-                txt_id3.setText(rs.getString("ID"));
-                txt_question1.setText(rs.getString("Questions"));
-                txt_description.setText(rs.getString("Description"));
+                txt_id3.setText(rs.getString("ID_QUESTION"));
+                txt_question1.setText(rs.getString("TEXT_QUESTIONS"));
+                txt_objetive.setText(rs.getString("OBJETIVE_QUESTIONS"));
+                txt_deleted3.setText(rs.getString("DELETE_ALL_Q"));
                 
                 
             }else{
@@ -227,14 +264,12 @@ public class RegistroQuestions extends javax.swing.JFrame {
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         try{
            Connection cn = DriverManager.getConnection("jdbc:mysql://localhost/surveys", "root", "");
-            PreparedStatement pst = cn.prepareStatement("delete from questions where ID = ?");
-            
-            pst.setString(1, txt_buscar2.getText().trim());
+           PreparedStatement pst = cn.prepareStatement("update questions set DELETE_ALL_Q=1");
+          
             pst.executeUpdate();
+            txt_deleted3.setText("0");
             
-            txt_id3.setText("");
-            txt_question1.setText("");
-            txt_description.setText("");
+           
             
             
             label_status3.setText("Registro eliminado.");
@@ -289,10 +324,14 @@ public class RegistroQuestions extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel label_status3;
     private javax.swing.JTextField txt_buscar2;
-    private javax.swing.JTextField txt_description;
+    private javax.swing.JTextField txt_deleted3;
     private javax.swing.JTextField txt_id3;
+    private javax.swing.JTextArea txt_objetive;
     private javax.swing.JTextField txt_question1;
     // End of variables declaration//GEN-END:variables
 }
