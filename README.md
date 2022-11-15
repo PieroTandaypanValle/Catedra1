@@ -5,7 +5,7 @@ https://download.oracle.com/java/19/latest/jdk-19_windows-x64_bin.exe ( sha256)
 
 Xampp(instalar Xampp segun tu sistema 8.1.10)
 
-https://www.apachefriends.org/es/index.html
+http://sourceforge.net/projects/xampp/files/
 
 Driver Conector(Instalar convenientemente "mysql-connector-j-8.0.31.zip" )
 
