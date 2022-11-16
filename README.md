@@ -9,7 +9,7 @@ http://sourceforge.net/projects/xampp/files/
 
 Driver Conector(Instalar convenientemente "mysql-connector-j-8.0.31.zip" )
 
-https://dev.mysql.com/downloads/connector/j/
+https://dev.mysql.com/downloads/file/?id=514518
 
 integrantes del equipo:
 
