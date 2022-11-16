@@ -1,5 +1,5 @@
 # Catedra1
-lenguaje java (instalar JDK 19)
+Maquina virtual de java (instalar JDK 19)
 
 https://download.oracle.com/java/19/latest/jdk-19_windows-x64_bin.exe ( sha256)
 
