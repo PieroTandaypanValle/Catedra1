@@ -1,0 +1,77 @@
+01) Estado civil:
+        a) Soltero                      1
+        b) Casado o En una relación     0  
+        c) Viudo                        2 
+02) ¿Usted es introvertido?
+        a) Si                           2  
+        b) No                           0
+        c) No lo se                     1
+03) ¿Has perdido el interés en cosas importantes para ti?
+        a) Si                           2
+        b) No                           0
+        c) No lo se                     1
+04) ¿Usted vive solo?
+        a) Si                           1
+        b) No                           0
+        c) Prefiero no responder        2
+05) ¿Ha sufrido de bullying o discriminación?
+        a) Si                           2
+        b) No                           0
+        c) Prefiere no responder        1
+06) ¿Ha sufrido de abuso o maltrato?
+        a) Si                           2
+        b) No                           0
+        c) Prefiere no responder        1
+
+07) ¿Usted se ha pensado en autolesionarse?
+        a) Si                           2
+        b) No                           0
+        c) Prefiero no responder        1
+
+08) ¿Usted se ha autolesionado?
+        a) Si                           2
+        b) No                           0
+        c) Prefiero no responder        1
+
+09) ¿Algún familiar o amigo cercano se ha muerto en el último tiempo?
+        a) Si                           2
+        b) No                           0
+        c) Prefiero no responder        1
+10) ¿Algún familiar o amigo cercano se ha suicidado?
+        a) Si                           2
+        b) No                           0
+        c) Prefiero no responder        1
+11) ¿Ha terminado alguna relación importante para usted? (Familiar, Amigos, Romántica)
+        a) Si                           2
+        b) No                           0
+        c) Prefiero no responder        1
+12) ¿Sus hábitos alimenticios han cambiado en el último tiempo?
+        a) Si                           2
+        b) No                           0
+        c) No lo se                     1
+13) ¿Ha cambiado su ciclo de sueño en el ultimo tiempo? 
+        a) Si                           2
+        b) No                           0
+        c) Prefiero no responder        1
+14) ¿Se ha sentido triste o ha llorado sin alguna razon aparente?
+        a) Si                           1
+        b) No                           0
+        c) Prefiero no responder        2
+15) ¿Siente que su humor ha cambiado?
+        a) Si                           1
+        b) No                           0
+        c) Prefiero no responder        2
+16) ¿Suele actuar de forma impulsiva?
+        a) Si                           2
+        b) No                           0
+        c) Prefiero no responder        1
+17) ¿Cuenta con un animal de contencion?
+        a) Si                           2
+        b) No                           1
+        c) No se ah que se refiere      0
+18) ¿Ha fallicido una mascota en los ultimos tiempos?
+        a) Si                           2
+        b) No                           0
+        c) Prefiero no responder        1
+
+

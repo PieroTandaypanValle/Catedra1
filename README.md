@@ -1,15 +1,15 @@
 # Catedra1
-lenguaje java (instalar JDK 19)
+Maquina virtual de java (instalar JDK 19)
 
 https://download.oracle.com/java/19/latest/jdk-19_windows-x64_bin.exe ( sha256)
 
 Xampp(instalar Xampp segun tu sistema 8.1.10)
 
-https://www.apachefriends.org/es/index.html
+http://sourceforge.net/projects/xampp/files/
 
 Driver Conector(Instalar convenientemente "mysql-connector-j-8.0.31.zip" )
 
-https://dev.mysql.com/downloads/connector/j/
+https://dev.mysql.com/downloads/file/?id=514518
 
 integrantes del equipo:
 
@@ -21,7 +21,7 @@ Jorge Gálvez
 
 Manuel Olivares Bello
 
-Link del Informe (actualizado 03-11-22):
+Link del Informe:
 
 https://docs.google.com/document/d/1kBEOHjWS_9F-i_p8txe8gVXXMHDi0kmdMhnZZlb6VWQ/edit#heading=h.o3qvrxrqaq6v
 
@@ -38,6 +38,7 @@ un entorno de desarrollo (eclipse, netbeans, VS code, otros).
 Tambien se debe descargar e instalar JDK: https://download.oracle.com/java/19/latest/jdk-19_windows-x64_bin.exe ( sha256)
 
 base de datos que debe importar:
-https://drive.google.com/file/d/1fEfvOA72PjldV-SeIMG3DIGrKLut26e2/view?usp=share_link en http://localhost/phpmyadmin/index.php
+https://drive.google.com/file/d/1tSi1-CtdZ5gDbO_N2ZoiYQC_qcUkmmXZ/view?usp=share_link 
+en http://localhost/phpmyadmin/index.php
 
 
